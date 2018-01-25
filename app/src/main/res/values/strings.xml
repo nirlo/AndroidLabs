@@ -2,4 +2,9 @@
     <string name="app_name">AndroidLabs</string>
     <string name="Hello_World">Hello World!</string>
     <string name="ButtonText">I\'m a Button!</string>
+    <string name="loginHead">Login</string>
+    <string name="passwordHead">Password</string>
+    <string name="whatDoes">What does this do? </string>
+    <string name="radioBtn">Radio Button</string>
+    <string name="checkBx">Check Box</string>
 </resources>

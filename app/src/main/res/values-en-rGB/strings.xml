@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidLabs</string>
+    <string name="Hello_World">Hello World!</string>
+    <string name="ButtonText">I\'m a Button!</string>
+    <string name="loginHead">Lugin</string>
+    <string name="passwordHead">Password</string>
+    <string name="whatDoes">Whuat doues this do?</string>
+    <string name="radioBtn">Radio dinky Button</string>
+    <string name="checkBx">Checky Box</string>
+</resources>
