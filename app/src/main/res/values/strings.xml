@@ -7,4 +7,9 @@
     <string name="whatDoes">What does this do? </string>
     <string name="radioBtn">Radio Button</string>
     <string name="checkBx">Check Box</string>
+    <string name="hint">login email</string>
+    <string name="dialog_message">Do you want to close the app?</string>
+    <string name="dialog_title">Close?</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
 </resources>

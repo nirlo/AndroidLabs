@@ -17,6 +17,7 @@
         />
 
     <CheckBox
+        android:id="@+id/check"
         android:layout_column="1"
         android:layout_row="0"
         android:text="@string/checkBx"
@@ -25,6 +26,7 @@
         />
 
     <Switch
+        android:id="@+id/switchObj"
         android:layout_row="1"
         android:layout_column="0"
         android:text="@string/whatDoes"
@@ -32,7 +34,8 @@
         android:gravity="fill"
         />
 
-    <ImageView
+    <ImageButton
+        android:id="@+id/imageButton"
         android:layout_column="1"
         android:layout_row="1"
         android:src="@drawable/flag"
