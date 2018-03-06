@@ -12,4 +12,8 @@
     <string name="dialog_title">Close?</string>
     <string name="ok">Yes</string>
     <string name="cancel">No</string>
+    <string name="chatbtn">Start Chat</string>
+    <string name="send">send</string>
+    <string name="yourmessage">your message</string>
+    <string name="image_description">yo</string>
 </resources>

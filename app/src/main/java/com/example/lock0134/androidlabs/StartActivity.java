@@ -12,12 +12,14 @@ public class StartActivity extends Activity {
 
     protected static final String ACTIVITY_NAME = "Start Activity";
     protected Button button;
+    protected Button chatButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
         button = findViewById(R.id.button);
+        chatButton = findViewById(R.id.chatbtn);
 
         Log.i(ACTIVITY_NAME, "In onCreate()");
     }
@@ -52,6 +54,13 @@ public class StartActivity extends Activity {
             public void onClick(View view) {
                 Intent intent = new Intent(StartActivity.this, ListItemsActivity.class);
                 startActivityForResult(intent, 50);
+            }
+        });
+        chatButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(StartActivity.this, ChatWindow.class);
+                startActivity(intent);
             }
         });
     }
