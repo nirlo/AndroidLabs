@@ -17,6 +17,5 @@
         android:layout_height="60dp"
         android:layout_weight="1"
         android:contentDescription="@string/image_description"
-        app:srcCompat="@drawable/row_odd" />
-
+        app:srcCompat="@drawable/row_even"/>
 </LinearLayout>
