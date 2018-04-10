@@ -13,6 +13,7 @@ public class StartActivity extends Activity {
     protected static final String ACTIVITY_NAME = "Start Activity";
     protected Button button;
     protected Button chatButton;
+    protected Button weatherBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,7 @@ public class StartActivity extends Activity {
         setContentView(R.layout.activity_start);
         button = findViewById(R.id.button);
         chatButton = findViewById(R.id.chatbtn);
+        weatherBtn = findViewById(R.id.forecast);
 
         Log.i(ACTIVITY_NAME, "In onCreate()");
     }
@@ -60,6 +62,13 @@ public class StartActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(StartActivity.this, ChatWindow.class);
+                startActivity(intent);
+            }
+        });
+        weatherBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(StartActivity.this, WeatherForecast.class);
                 startActivity(intent);
             }
         });

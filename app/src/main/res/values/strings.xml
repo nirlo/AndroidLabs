@@ -16,4 +16,9 @@
     <string name="send">send</string>
     <string name="yourmessage">your message</string>
     <string name="image_description">yo</string>
+    <string name="message_v">message is here</string>
+    <string name="delete_message">Delete Message</string>
+    <string name="message_id">id =</string>
+    <string name="title_activity_test_toolbar">TestToolbar</string>
+    <string name="toolButton">tool</string>
 </resources>
